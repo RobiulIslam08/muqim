@@ -12,3 +12,9 @@ menuToggle.addEventListener("click", () => {
   closeIcon.classList.toggle("hidden");
   menuToggle.classList.toggle("rotate-180");
 });
+
+// for carosel
+// Carousel initialization
+const carousel = new Flowbite.Carousel(document.getElementById('default-carousel'), {
+	interval: 3000, // 3 seconds interval
+  });
